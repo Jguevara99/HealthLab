@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthLab.Application", "HealthLab.Application", "{E197DEB1-56ED-4448-9A4B-B6F7A8067A17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthLab.Domain", "HealthLab.Domain", "{86E4582C-6669-497D-98EA-A06E1158BB2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthLab.Infrastructure", "HealthLab.Infrastructure", "{EF2AB4F3-CAE9-4DBD-BC53-168DA1C38562}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthLab.Services", "HealthLab.Services", "{C53B5AF6-5CCF-448B-8EFC-A7FBBDB6EECA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthLab.Utilitis", "HealthLab.Utilitis", "{7968955F-9F0E-4402-B7E2-C2A029086F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLab.Domain", "HealthLab.Domain\HealthLab.Domain.csproj", "{668AE1A6-5A3D-4FC8-8FAC-5C7C90F6BDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLab.Infrastructure", "HealthLab.Infrastructure\HealthLab.Infrastructure.csproj", "{D90A0B01-577D-4A4E-B550-ED4E841B8D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLab.Persistence", "HealthLab.Persistence\HealthLab.Persistence.csproj", "{8F231D08-B6E4-4E45-8F82-00B5C84FD720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLab.Application.Dtos", "HealthLab.Application\HealthLab.Application.Dtos.csproj", "{FA32590D-5AD2-454B-AA67-89E7A43E34CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLab.Application.Interface", "HealthLab.Application.Interface\HealthLab.Application.Interface.csproj", "{8DE4E9B6-EB91-4194-A193-91C8187F0EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLab.Application.UseCase", "HealthLab.Application.UseCase\HealthLab.Application.UseCase.csproj", "{A15C8B7D-8FA9-4FB2-8D08-4647346C04C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLab.Api", "HealthLab.Api\HealthLab.Api.csproj", "{28D7F70B-80A3-41D2-BA82-03EDC582AC9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLab.Utilitis", "HealthLab.Utilitis\HealthLab.Utilitis.csproj", "{306F6264-87CD-4052-BDD6-2B66F08EA741}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{668AE1A6-5A3D-4FC8-8FAC-5C7C90F6BDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668AE1A6-5A3D-4FC8-8FAC-5C7C90F6BDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668AE1A6-5A3D-4FC8-8FAC-5C7C90F6BDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668AE1A6-5A3D-4FC8-8FAC-5C7C90F6BDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90A0B01-577D-4A4E-B550-ED4E841B8D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90A0B01-577D-4A4E-B550-ED4E841B8D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90A0B01-577D-4A4E-B550-ED4E841B8D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90A0B01-577D-4A4E-B550-ED4E841B8D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F231D08-B6E4-4E45-8F82-00B5C84FD720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F231D08-B6E4-4E45-8F82-00B5C84FD720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F231D08-B6E4-4E45-8F82-00B5C84FD720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F231D08-B6E4-4E45-8F82-00B5C84FD720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA32590D-5AD2-454B-AA67-89E7A43E34CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA32590D-5AD2-454B-AA67-89E7A43E34CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA32590D-5AD2-454B-AA67-89E7A43E34CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA32590D-5AD2-454B-AA67-89E7A43E34CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE4E9B6-EB91-4194-A193-91C8187F0EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE4E9B6-EB91-4194-A193-91C8187F0EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE4E9B6-EB91-4194-A193-91C8187F0EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE4E9B6-EB91-4194-A193-91C8187F0EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15C8B7D-8FA9-4FB2-8D08-4647346C04C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15C8B7D-8FA9-4FB2-8D08-4647346C04C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15C8B7D-8FA9-4FB2-8D08-4647346C04C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15C8B7D-8FA9-4FB2-8D08-4647346C04C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D7F70B-80A3-41D2-BA82-03EDC582AC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D7F70B-80A3-41D2-BA82-03EDC582AC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D7F70B-80A3-41D2-BA82-03EDC582AC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D7F70B-80A3-41D2-BA82-03EDC582AC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306F6264-87CD-4052-BDD6-2B66F08EA741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306F6264-87CD-4052-BDD6-2B66F08EA741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306F6264-87CD-4052-BDD6-2B66F08EA741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306F6264-87CD-4052-BDD6-2B66F08EA741}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{668AE1A6-5A3D-4FC8-8FAC-5C7C90F6BDF0} = {86E4582C-6669-497D-98EA-A06E1158BB2C}
+		{D90A0B01-577D-4A4E-B550-ED4E841B8D00} = {EF2AB4F3-CAE9-4DBD-BC53-168DA1C38562}
+		{8F231D08-B6E4-4E45-8F82-00B5C84FD720} = {EF2AB4F3-CAE9-4DBD-BC53-168DA1C38562}
+		{FA32590D-5AD2-454B-AA67-89E7A43E34CC} = {E197DEB1-56ED-4448-9A4B-B6F7A8067A17}
+		{8DE4E9B6-EB91-4194-A193-91C8187F0EC5} = {E197DEB1-56ED-4448-9A4B-B6F7A8067A17}
+		{A15C8B7D-8FA9-4FB2-8D08-4647346C04C9} = {E197DEB1-56ED-4448-9A4B-B6F7A8067A17}
+		{28D7F70B-80A3-41D2-BA82-03EDC582AC9E} = {C53B5AF6-5CCF-448B-8EFC-A7FBBDB6EECA}
+		{306F6264-87CD-4052-BDD6-2B66F08EA741} = {7968955F-9F0E-4402-B7E2-C2A029086F83}
+	EndGlobalSection
+EndGlobal
